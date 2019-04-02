@@ -3,8 +3,6 @@ import yaml
 import types
 import logging
 
-from itertools import chain
-
 
 class AnsibleInventory:
     UNIVERSAL_TAG = 'dofaucet'
