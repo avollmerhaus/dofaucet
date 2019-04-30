@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dofaucet",
-    version='0.0.1',
+    version='0.0.2',
     author="Aljoscha Vollmerhaus",
     author_email='pydev@aljoscha.vollmerhaus.net',
     description="read ansible yaml inventory, create droplets",
