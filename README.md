@@ -7,7 +7,7 @@ Read YAML-formatted ansible inventory, create digitalocean droplets accordingly.
 Neat tricks: 
  - creates DNS records for both internal and external droplet IPs
  - adds ssh pubkeys to droplets (only keys already uploaded to DO)
- - adds alls created droplets to a project so they're easy to identify
+ - adds all created droplets to a project so they're easy to identify
 
 # Example usage
 
@@ -20,7 +20,7 @@ all:
     do_ssh_key_names: ['my_key', 'my_friends_key']
     dofaucet_dnsroot: example.com
     do_project: test_webstack_ansible
-    do_image_slug: fedora-28-x64
+    do_image_slug: fedora-29-x64
 
 foohosts:
   vars:
