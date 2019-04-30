@@ -4,8 +4,8 @@ import sys
 import argparse
 import logging
 
-from dofaucet import DoFaucet
-from ansibleinventory import AnsibleInventory
+from dofaucet.dofaucet import DoFaucet
+from dofaucet.ansibleinventory import AnsibleInventory
 
 
 def open_faucet():

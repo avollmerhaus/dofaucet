@@ -22,6 +22,6 @@ setuptools.setup(
     install_requires=['python-digitalocean', 'pyyaml'],
     packages=setuptools.find_packages('src'),
     package_dir={'': 'src'},
-    entry_points={'console_scripts': ['dofaucet = cli:dofaucet']},
+    entry_points={'console_scripts': ['dofaucet = dofaucet.cli:open_faucet']},
 
 )
